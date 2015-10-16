@@ -1,0 +1,31 @@
+Array
+(
+    [adultTickets] => Array
+        (
+            [AF] => 3
+        )
+
+    [concessionTickets] => Array
+        (
+            [AF] => 4
+        )
+
+    [dayAF] => Saturday
+    [timeAF] => 3pm
+    [seatsAF] => Array
+        (
+            [16] => e4
+            [18] => e6
+            [19] => e7
+            [32] => f6
+            [33] => f7
+            [46] => g6
+            [47] => g7
+        )
+
+    [Name] => sefsefesfs
+    [Surname] => sefsefsef
+    [Email] => sefsefsef@gmail.com
+    [Number] => 23131321331
+    [voucher] => 12345-12345-ZI
+)

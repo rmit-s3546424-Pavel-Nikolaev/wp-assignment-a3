@@ -1,0 +1,255 @@
+	
+
+body {
+ 	    background: url('background.jpg') no-repeat center center fixed;
+             background-size: cover;
+ 		}
+
+	   .header {
+        width: 30%;
+        height:10%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+        .header a img{
+            height:100%;
+            width:100%;
+        }
+
+        .navbar{
+        height: 60px;
+        max-width: 760px;
+        min-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        background: -webkit-linear-gradient(top, white 0%,#606060 50%,black 100%);
+        -webkit-box-shadow:rgba(0,0,0,0.7) 0px 7px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        border: 1px solid silver; 
+        border-radius: 10px;
+        text-align: center;
+        
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row ;
+        flex-direction: row;
+        -webkit-align-items: left;
+        align-items: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+
+        }
+
+        .navbar a{
+        font-size: 15px;
+        text-decoration: none; 
+        color:white;
+        padding:20px;
+        font-style:sans-serif; 
+        height:20px;
+        width:200px;
+        }
+
+        .navbar .searchBar{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row ;
+        flex-direction: row;
+        -webkit-align-items: center;
+        align-items: center;
+        }
+
+        .navbar .searchBar .text{
+        border:1px solid silver;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:5px;
+        height:20px;
+        margin-left: 15px;
+        }
+
+        .searchButton{
+        text-align: center;
+        color: white;
+        width:40px;
+        height:20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px;
+        background:-webkit-linear-gradient(top, silver 0%,#606060 50%,black 100%);
+        border:1px solid silver;
+        margin-right: 20px;
+        }
+
+        .navbar ol li a:hover{
+ 	   	border-radius:8px;
+        background: -webkit-linear-gradient(top, white 0%,#606060 50%,black 100%); /* throws down shadow when hovering over link & adds gradient fill*/
+	    -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+	    }
+
+
+	    .navbar ol li a:active{
+		background: -webkit-linear-gradient(top, white 0%,#606060 50%,black 100%); /* removes shadow to show the button has been clicked*/
+		-webkit-box-shadow: rgba(255,255,255,0.05) 0px 1px 0px, inset rgba(255,255,255,0.05) 0px 20px 0px;
+	    }
+
+
+
+	    .content .main{ 
+	    background: rgba(50, 50, 50, .93);
+	    height: 850px;
+	    max-width:850px;
+	    min-width: 400px;
+	    margin: 50px auto;
+	    -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 30px, inset rgba(0,0,0,0.5) 0px -5px 20px;
+        border:1px solid silver;
+        }
+
+        .content .main .topBorder{
+        height:30px;
+        max-width:850px;
+	    min-width: 400px;
+        background: -webkit-linear-gradient(top, white 0%,black 100%);
+        }
+        .movieSelect{
+        background:#4D4D4D;
+        text-align: center;
+        color:white;
+        font-size: 17px;
+        margin-top: 30px;
+        width:40%;
+        height:50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border:1px solid silver;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+        
+        .movieSelect select{
+        font-size: 15px;
+        width:80%;
+        border-radius: 5px;
+        background:gray
+        }
+
+        .day{
+        background:#4D4D4D;
+        text-align: center;
+        color:white;
+        font-size: 17px;
+        margin-top: 30px;
+        width:40%;
+        height:50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border:1px solid silver;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .day select{
+        font-size: 15px;
+        width:80%;
+        border-radius: 5px;
+        background:gray
+        }
+
+        .time{
+        background:#4D4D4D;
+        text-align: center;
+        color:white;
+        font-size: 17px;
+        margin-top: 30px;
+        width:40%;
+        height:50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border:1px solid silver;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .time select{
+        font-size: 15px;
+        width:80%;
+        border-radius: 5px;
+        background:gray
+        }
+
+        .tktTable{
+        margin-top:30px;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        background:#4D4D4D;
+        border:1px solid silver;
+        width:90%;
+        border-radius: 5px;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        -webkitflex-direction:row;
+        -webkit-align-items:center;
+        -webkit-justify-content:center;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .tktTable table{
+        width:100%;
+        border:1px solid silver;
+        border-radius: 5px;
+        color:silver;
+        }
+
+        .tktTable table .row{
+        background:#202020;
+        }
+
+        .tktTable select{
+        width:100%;
+        border-radius: 5px;
+        background:gray;
+        }
+
+        .bookForm{
+            text-align: center;
+        }
+        .bookForm p{
+        color:silver;
+        }
+
+        .bookForm a{
+            color:orange;
+        }
+
+        .submitBtn{
+        color:white;
+        font-size: 17px;
+        width: 175px;
+        height:45px;
+        border-radius: 5px;
+        background:-webkit-linear-gradient(top, gray 0%,#606060 50%,black 100%);
+        border:1px solid silver;
+        }
+
+        .submitBtn:hover{
+            -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .footer{
+        width:175px;
+        margin: 20px auto;
+        text-align: center;
+        color:white;
+        margin-bottom:20px;
+        background:-webkit-gradient(linear, left top, right top, from(rgba(200, 200,200, 0)), color-stop(0.35, rgba(0,0, 0, 1)), to(rgba(200, 200, 200, 0)));
+        text-shadow: black 0.2em 0.2em 0.2em;
+        
+        }
+
+
+
+
+
+
+

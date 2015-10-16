@@ -1,0 +1,191 @@
+
+body {
+ 	    background: url('background.jpg') no-repeat center center fixed;
+             background-size: cover;
+ 		}
+
+            .header {
+        width: 35%;
+        height :10%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+        .header a img{
+            height:100%;
+            width:100%;
+        }
+    
+        .navbar{
+        height: 60px;
+        max-width: 760px;
+        min-width: 415px;
+        margin-left: auto;
+        margin-right: auto;
+        background: -webkit-linear-gradient(top, white 0%,#606060 50%,black 100%);
+        -webkit-box-shadow:rgba(0,0,0,0.7) 0px 7px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        border: 1px solid silver; 
+        border-radius: 10px;
+        text-align: center;
+        
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row ;
+        flex-direction: row;
+        -webkit-align-items: left;
+        align-items: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+
+        }
+
+        .navbar a{
+        font-size: 14px;
+        text-decoration: none; 
+        color:white;
+        padding:20px;
+        font-style:sans-serif; 
+        height:20px;
+        width:200px;
+        }
+
+
+        @media all and (max-width: 700px) {
+            .searchBar{display:none;}
+            .text{display:none;}
+            .searchButton{display:none;}
+        }
+
+        .navbar ol li a:hover{
+ 	   	border-radius:8px;
+        background: -webkit-linear-gradient(top, white 0%,#606060 50%,black 100%); /* throws down shadow when hovering over link & adds gradient fill*/
+	    -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+	    }
+
+
+	    .navbar ol li a:active{
+		background: -webkit-linear-gradient(top, white 0%,#606060 50%,black 100%); /* removes shadow to show the button has been clicked*/
+		-webkit-box-shadow: rgba(255,255,255,0.05) 0px 1px 0px, inset rgba(255,255,255,0.05) 0px 20px 0px;
+	    }
+
+
+
+	    .content .main{ 
+	   background: rgba(50, 50, 50, .93);
+	    height: 850px;
+	    max-width:850px;
+	    min-width: 400px;
+	    margin: 50px auto;
+	    -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 30px, inset rgba(0,0,0,0.5) 0px -5px 20px;
+        border:1px solid silver;
+        }
+
+        .content .main .topBorder{
+        height:30px;
+        max-width:850px;
+	    min-width: 400px;
+        background: -webkit-linear-gradient(top, white 0%,black 100%);
+        }
+
+        .movieSelect{
+        background:#4D4D4D;
+        text-align: center;
+        color:white;
+        font-size: 17px;
+        margin-top: 30px;
+        width:70%;
+        height:50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border:1px solid silver;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+        
+        .movieSelect select{
+        font-size: 15px;
+        width:80%;
+        border-radius: 5px;
+        background:gray
+        }
+
+        .day{
+        background:#4D4D4D;
+        text-align: center;
+        color:white;
+        font-size: 17px;
+        margin-top: 30px;
+        width:70%;
+        height:50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border:1px solid silver;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .day select{
+        font-size: 15px;
+        width:80%;
+        border-radius: 5px;
+        background:gray
+        }
+
+        .time{
+        background:#4D4D4D;
+        text-align: center;
+        color:white;
+        font-size: 17px;
+        margin-top: 30px;
+        width:70%;
+        height:50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border:1px solid silver;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .time select{
+        font-size: 15px;
+        width:80%;
+        border-radius: 5px;
+        background:gray
+        }
+
+        .tktTable{
+        margin-top:30px;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        background:#4D4D4D;
+        border:1px solid silver;
+        width:100%;
+        border-radius: 5px;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        -webkitflex-direction:row;
+        -webkit-align-items:center;
+        -webkit-justify-content:center;
+        -webkit-box-shadow:rgba(0,0,0,0.9) 0px 0px 20px, inset rgba(0,0,0,0.15) 0px -7px 20px;
+        }
+
+        .tktTable table{
+        width:100%;
+        border:1px solid silver;
+        border-radius: 5px;
+        color:silver;
+        }
+
+        .tktTable table .row{
+        background:#202020;
+        }
+
+        .tktTable select{
+        width:100%;
+        border-radius: 5px;
+        background:gray;
+        }
+
